@@ -61,3 +61,7 @@ fetch("https://api.github.com/users/ayobanjo")
     console.timeEnd("fetch data");
     console.log(data);
   });
+
+//table
+
+console.table(dogs);
